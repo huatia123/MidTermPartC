@@ -20,10 +20,10 @@ public class TestUserprofile {
         String userID = input.nextLine();
 
         System.out.println("Choose your favourite genre:");
-        System.out.println("1. Science");
+        System.out.println("1. Comedy");
         System.out.println("2. Drama");
-        System.out.println("3. Pet");
-        System.out.println("4. Vlog");
+        System.out.println("3. Action");
+        System.out.println("4. Mystery");
 
         System.out.print("Enter your choice (1-4): ");
         int choice = input.nextInt();
@@ -32,16 +32,16 @@ public class TestUserprofile {
 
         switch (choice) {
             case 1:
-                genre = "Science";
+                genre = "Comedy";
                 break;
             case 2:
                 genre = "Drama";
                 break;
             case 3:
-                genre = "Pet";
+                genre = "Action";
                 break;
             case 4:
-                genre = "Vlog";
+                genre = "Mystery";
                 break;
             default:
                 System.out.println("Invalid choice. Please run the program again.");
